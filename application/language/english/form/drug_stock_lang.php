@@ -1,0 +1,82 @@
+<?php
+
+$lang['Add Drugs to Stock'] = 'Add Drugs to Stock';
+$lang['Name'] = 'Name';
+$lang['Drug Name'] = 'Drug Name';
+$lang['Existing Stock'] = 'Existing Stock';
+$lang['Document Number'] = 'Document Number';
+$lang['Entries'] = 'Entries';
+$lang['Negative Adjustment'] = 'Negative Adjustment';
+$lang['Positive Adjustment'] = 'Positive Adjustment';
+$lang['Exits'] = 'Exits';
+$lang['Signature'] = 'Signature';
+$lang['Destination'] = 'Destination';
+$lang['Movement'] = 'Movement';
+$lang['Batch'] = 'Batch number';
+$lang['Batch Deadline'] = 'Batch Deadline';
+$lang['Pharmaceutical Form'] = 'Pharmaceutical Form';
+$lang['Expiration Date'] = 'Expiration Date';
+$lang['Filter by Drug Name'] = 'Filter by Drug Name';
+$lang['Signature'] = 'Signature';
+
+$lang['Quantity'] = 'Quantity';
+$lang['Pharmaceutical Form'] = 'Pharmaceutical Form';
+$lang['Pharmacy Technician'] = 'Pharmacy Technician';
+$lang['Requested Quantity'] = 'Requested Quantity';
+$lang['National Form Code'] = 'Code FNM';
+$lang['This drug has already been added.'] = 'This drug has already been added.';
+$lang['Please enter a valid quantity greater than zero'] = 'Please enter a valid quantity greater than zero';
+$lang['Delete'] = 'Delete';
+$lang['Request'] = 'Request';
+$lang['Please add at least one drug'] = 'Please add at least one drug';
+$lang['This drug is already added'] = 'This drug is already added';
+
+$lang['Search'] = 'Search';
+$lang['FNM'] = 'FNM';
+$lang['Actions'] = 'Actions';
+$lang['Internal Prescriptions'] = 'Internal Prescriptions';
+$lang['External Prescriptions'] = 'External Prescritions';
+$lang['Negative Adjustments'] = 'Negatives Adjustments';
+$lang['Wastes'] = 'Wastes';
+$lang['Start Date'] = 'Start Date';
+$lang['End Date'] = 'End Date';
+$lang['Dates Missing Message'] = 'Incomplete Information! Enter the <strong>Start Date</strong> and <strong>End Date</strong>';
+$lang['Medication Exit Report'] = 'Drugs Exit Report';
+$lang['Medication Entry Report'] = 'Drugs Entry Report';
+$lang['Stock Report'] = 'Stock Report';
+
+
+$lang['quantity'] = 'Quantity';
+$lang['technician'] = 'Pharmacy Technician:';
+$lang['date'] = 'Date:';
+$lang['total_cost'] = 'Total Cost:';
+$lang['period'] = 'Period';
+$lang['start'] = 'Start:';
+$lang['end'] = 'End:';
+$lang['search'] = 'Search';
+$lang['Request Code'] = 'Request Code';
+$lang['Enter request code'] = 'Enter request code';
+$lang['Show Request'] = 'Show Request';
+$lang['Request Items'] = 'Request Items';
+$lang['Print'] = 'Print';
+$lang['Please enter the request code'] = 'Please enter the request code';
+$lang['Error fetching drug details. Please try again'] = ['Error fetching drug details. Please try again'];$lang['Drugs Sales Report'] = 'Drugs Sales Report';
+$lang['Income report'] = 'Income report';
+
+$lang['Request Type'] = 'Request Type';
+$lang['Normal Request'] = 'Normal Request';
+$lang['Emergency Request'] = 'Emergency Request';
+$lang['View Items'] = 'View Items';
+$lang['Fortnight'] = 'Fortnight';
+$lang['First Fortnight'] = 'First Fortnight';
+$lang['Second Fortnight'] = 'Second Fortnight';
+$lang['Emergency'] = 'Emergency';
+$lang['Normal'] = 'Normal';
+$lang['All Drugs'] = 'All Drugs';
+$lang['Request Date'] = 'Request Date';
+$lang['Created By'] = 'Created By';
+$lang['Waste'] = 'Waste';$lang['Waste'] = 'Waste';
+$lang['Consumption'] = 'Consumption';
+$lang['Submit'] = 'Submit';
+$lang['Edit Request'] = 'Edit Request';
+$lang['Completed'] = 'Completed';

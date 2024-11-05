@@ -1,0 +1,25 @@
+Update 1:
+
+- Cololo:
+    - Add tables: patient_emr_contacts, patient_emr_reasons
+    - Add column: EntryTime in table 'patient_active_list'
+
+- Trung:
+    - Add tables:
+        - emergency_area: for view of emergency visit
+        - severity: for triage selection
+    - Add field 'Destination' into 'emergency_admission'
+
+
+December 01 (Cololo)
+
+ALTER TABLE `patient_active_list` ADD ` EntryTime ` timestamp  NULL AFTER `Department `;
+ALTER TABLE  patient_active_list  ADD  HospitalizationReason  VARCHAR( 300 ) NULL AFTER  EntryTime;
+ALTER TABLE `patient_active_list` ADD `Destination` VARCHAR( 200 ) NULL AFTER `HospitalizationReason`;
+INSERT INTO `qch`.`patient_emr_reasons` (`PEMRRID` ,`HospitalizationReason` ,`CreateDate` ,`CreateUser` ,`CreateIP` ,`LastUpDate` ,`LastUpDateUser` ,`LastUpDateIP`)
+VALUES (NULL , 'Illness', '2016-11-29 00:00:00', '', '', '2016-11-29 00:00:00', NULL , NULL), (NULL , 'Work Accident', '2016-11-29 00:00:00', '', '', '2016-11-29 00:00:00', NULL , NULL),(NULL , 'Traffic Accident', '2016-11-29', '', '', '2016-11-29', NULL , NULL), (NULL , 'Aggression', '2016-11-29', '', '', '2016-11-29', NULL , NULL),(NULL , 'Other Accidents', '2016-11-29', '', '', '2016-11-29', NULL , NULL), (NULL , 'Other Reasons', '2016-11-29', '', '', '2016-11-29', NULL , NULL
+);
+ALTER TABLE `patient` ADD `GOV_EMP` VARCHAR( 50 ) NULL AFTER `NUIT_ID` ,
+ADD `HEALTH_CARE_ID` VARCHAR( 150 ) NULL AFTER `GOV_EMP`;
+ALTER TABLE `patient_active_list` CHANGE `Remarks` `Remarks` VARCHAR( 500 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `patient_emr_contacts` ADD `ContactEmail` VARCHAR( 150 ) NULL AFTER `ContactTelephone`;
